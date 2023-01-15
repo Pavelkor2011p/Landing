@@ -39,7 +39,7 @@
         <section class="block01">
             <div class="conteiner block01__conteiner">
                 <div class="block01__info">
-                    <h1 class="block01__title title">Turnkey Repair in the city of<spanclass="block01__title-rostov">Rostov-on-Don</span class=></h1>
+                    <h1 class="block01__title title">Turnkey Repair in the city of  <span class="block01__title-rostov">Rostov-on-Don</span class=></h1>
                     <p class="block01__title-text">
                         Get ready-made turnkey repairs on time with work time saving up to
                         45 days and 20% from cost of materials due to the organization of
@@ -93,11 +93,11 @@
                 </div>
             </div>
                 <div class="block02__logo">
-                    <h2>online control</h2>
+                    <h2 class="block02__logo-white">online control</h2>
                     <div class="block02__logo-vector">
-                        <img src="/src/img/line01.svg" alt="line" class="block02__logo-line">
-                        <img src="/src/img/Vector01.svg" alt="icon">
-                        <img src="/src/img/line01.svg" alt="line" class="block02__logo-line">
+                        <img src="./img/line01.svg" alt="line" class="block02__logo-line">
+                        <img src="./img/Vector01.svg" alt="icon">
+                        <img src="./img/line01.svg" alt="line" class="block02__logo-line">
                     </div>
                 </div>
         </section>
@@ -105,8 +105,7 @@
         <section class="block03 conteiner">
                 <div class="block03__video">
                     <div class="block03__video-push">
-                        <button class="block03__video_botton"></button>
-                        <div class="block03__poligon"></div>
+                        <button class="block03__video_botton">&#9658;</button>
                     </div>
                     <div class="block03__video-overlate"></div>
                 </div>
@@ -118,26 +117,27 @@
                         live broadcast from one of our facilities!
                         Leave a request below and you will receive a link to the broadcast.
                     </p>
-                <div class="block03__input01">
-                    <div class="block03__input01-group01">
-                        <input type="text" required placeholder="Name" name="Name">
-                        <span class="bar"></span>
-                        <label>What is your name:</label>
-                    </div>
-                    <div class="block03__input01-group01">
-                        <input type="number" required placeholder="Phone" name="Phone">
-                        <span class="bar"></span>
-                        <label>Your phone number:</label>
-                    </div>
-                    <button class=" button block03__button-input">Submit</button>
-                </div>
-                            <div class="block03__first-checkbox"></div>
+                    <form class="block03__input01">
+                        <div class="block03__input01-group01">
+                            <label class="label" for="name">Name</label>
+                            <input class="input" type="text" placeholder="What is your name:" id="name" name="Name">
+                        </div>
+                        <div class="block03__input01-group01">
+                            <label class="label">Fone</label>
+                            <input class="input" type="number" placeholder="Your fone number:" name="Name">
+                        </div>
+                        <button class=" button block03__button-input">Submit</button>
+                    </form>
+                        <div class="block03__first-checkbox">
+                            <input type="checkbox" class="block03__first-checkbox custom-checkbox"id="happo" name="happy" value="yes" placeholder="What is">
+                            <label for="happo">I agree to the processing of personal data.</label>
+                        </div>
                     <div class="block02__logo">
                         <h2 class="block03__logo-black">TYPES OF REPAIR</h2>
                         <div class="block02__logo-vector">
-                            <img src="/src/img/line01.svg" alt="line" class="block02__logo-line">
-                            <img src="/src/img/Vector01.svg" alt="icon">
-                            <img src="/src/img/line01.svg" alt="line" class="block02__logo-line">
+                            <img src="./img/line01.svg" alt="line" class="block02__logo-line">
+                            <img src="./img/Vector01.svg" alt="icon">
+                            <img src="./img/line01.svg" alt="line" class="block02__logo-line">
                         </div>
                     </div>
                 </div>
@@ -198,20 +198,20 @@
             <div class="block05__contecst">
                 <div class="block05__number-button">
                     <div class="block05__number">
-                        <div class="block05__circle"><img src="/src/img/01.png" alt="circle"> </div>
+                        <div class="block05__circle"><img src="./img/01.png" alt="circle"> </div>
                         <p>Our specialist will arrive for measurements per day
                             contact, or appoint a date convenient for you</p>
                     </div>
                     <div class="block05__number">
-                        <div class="block05__circle"><img src="/src/img/02.png" alt="circle"> </div>
+                        <div class="block05__circle"><img src="./img/02.png" alt="circle"> </div>
                         <p>Free metering</p>
                     </div>
                     <div class="block05__number">
-                        <div class="block05__circle"><img src="/src/img/03.png" alt="circle"> </div>
+                        <div class="block05__circle"><img src="./img/03.png" alt="circle"> </div>
                         <p>Free consultation</p>
                     </div>
                     <div class="block05__number">
-                        <div class="block05__circle"><img src="/src/img/04.png" alt="circle"> </div>
+                        <div class="block05__circle"><img src="./img/04.png" alt="circle"> </div>
                         <p>Get a cost estimate and
                             the timing of your future repairs</p>
                     </div>
@@ -222,32 +222,30 @@
                     departure of the measurer</h3>
                 <form>
                     <div class="block05__group">
-                        <input type="text" required placeholder="Name" name="Name">
-                        <span class="bar"></span>
-                        <label>What is your name:</label>
+                        <label class="label white">Name</label>
+                        <input class="inputWhite" type="text" placeholder="What is your name:" name="Name">
                     </div>
                     <div class="block05__group">
-                        <input type="number" required placeholder="Phone" name="Phone">
-                        <span class="bar"></span>
-                        <label>Your phone number:</label>
+                        <label class="label white">Phone</label>
+                        <input class="inputWhite" type="number" placeholder="Your phone number:" name="Phone">
                     </div>
                     <div class="block05__group">
-                        <input type="email" required placeholder="E-mail" name="E-mail">
-                        <span class="bar"></span>
-                        <label>Your email</label>
+                        <label class="label white">Email</label>
+                        <input class="inputWhite" type="email" placeholder="Your email" name="E-mail">
+                    </div>               
+                    <div class="block05__logo-checkbox">
+                        <input type="checkbox" class="block05__logo-checkbox custom-checkbox" id="happyy" 
+                        name="happy" value="yes" placeholder="What is">
+                        <label for="happyy">I agree to the processing of personal data.</label>
                     </div>
-                </form>
-                <div class="block05__logo-checkbox">
-                    <div></div>
-                    <p>I agree to the processing of personal<br> data</p>
-                </div>
-                <button class="button  block05__button-call">Call the   measurer</button>                
+                    <button class="button  block05__button-call">Call the   measurer</button>
+                </form>                
             </div>
         </section>
 
         <div class="help conteiner">
             <div class="logo-help">
-                <img src="/src/img/Group.svg" alt="logo">
+                <img src="./img/Group.svg" alt="logo">
             </div>
             <p>Help save 10 - 20% of the<br>
                 cost of materials</p>
@@ -290,9 +288,9 @@
                 <div class="block07__logo">
                     <h2 class="block07__logo-black">our clients</h2>
                     <div class="block07__logo-vector">
-                        <img src="/src/img/line01.svg" alt="line" class="block02__logo-line">
-                        <img src="/src/img/Vector02.svg" alt="Vector2">
-                        <img src="/src/img/line01.svg" alt="line" class="block02__logo-line">
+                        <img src="./img/line01.svg" alt="line" class="block02__logo-line">
+                        <img src="./img/Vector02.svg" alt="Vector2">
+                        <img src="./img/line01.svg" alt="line" class="block02__logo-line">
                     </div>
                 </div>
                     <div> <p class="block07__logo-recommend">80% of our customers recommend us to theirfriends  and family.</p>
@@ -303,7 +301,7 @@
             <div class="block08__client">
                 <div class="block08__client-client01">
                     <div class="block08__client-block">
-                        <img class="block08__client-block-foto" src="/src/img/client01.png" alt="foto">
+                        <img class="block08__client-block-foto" src="./img/client01.png" alt="foto">
                         <h3>Fedosova Maria
                             Konstantinovna</h3>
                     </div>
@@ -316,11 +314,11 @@
                         Works performed qualitatively without comments. Quality satisfied. Prices democratic. I
                         recommend
                         these masters.</p>
-                    <button class="block08__client-button"><img src="/src/img/button01.png" alt="button"></button>
+                    <button class="block08__client-button"><img src="./img/button01.png" alt="button"></button>
                 </div>
                 <div class="block08__client-client01">
                     <div class="block08__client-block">
-                        <img class="block08__client-block-foto" src="/src/img/client02.png" alt="foto">
+                        <img class="block08__client-block-foto" src="./img/client02.png" alt="foto">
                         <h3>Afanasyev Sergey Alexandrovich</h3>
                     </div>
                     <p>I want to thank the guys for their work. We put your shower part in repair. I am very grateful
@@ -332,11 +330,11 @@
                         Works performed qualitatively without comments. Quality satisfied. Prices democratic. I
                         recommend
                         these masters.</p>
-                    <button class="block08__client-button"><img src="/src/img/button02.png" alt="button"></button>
+                    <button class="block08__client-button"><img src="./img/button02.png" alt="button"></button>
                 </div>
                 <div class="block08__client-client01">
                     <div class="block08__client-block">
-                        <img class="block08__client-block-foto" src="/src/img/client03.png" alt="foto">
+                        <img class="block08__client-block-foto" src="./img/client03.png" alt="foto">
                         <h3>Kiriev Egor Leonidovich</h3>
                     </div>
                     <p>I want to thank the guys for their work. We put your shower part in repair. I am very grateful
@@ -348,7 +346,7 @@
                         Works performed qualitatively without comments. Quality satisfied. Prices democratic. I
                         recommend
                         these masters.</p>
-                    <button class="block08__client-button"><img src="/src/img/button03.png" alt="button"></button>
+                    <button class="block08__client-button"><img src="./img/button03.png" alt="button"></button>
                 </div>
             </div>
         </section>
@@ -360,16 +358,14 @@
                     <div class="block09__anyQuestions-anyInput">
                         <form>
                             <div class="block09__anyQuestions-group01">
-                                <input type="text" required placeholder="Name" name="Name">
-                                <span class="bar"></span>
-                                <label>What is your name:</label>
+                                <label class="label white">Name</label>
+                                <input class="inputWhite" type="text" required placeholder="What is your name:" name="Name">
                             </div>
                         </form>
                         <form>
                             <div class="block09__anyQuestions-group01">
-                                <input type="number" required placeholder="Phone" name="Phone">
-                                <span class="bar"></span>
-                                <label>Your phone number:</label>
+                                <label class="label white">Phone</label>
+                                <input class="inputWhite" type="number" required placeholder="Your phone number:" name="Phone">
                             </div>
                         </form>
                     </div>
@@ -377,22 +373,24 @@
                     <div class="block09__anyQuestions-anyInput01">
                         <form>
                             <div class="block09__anyQuestions-group01">
-                                <input type="text" required placeholder="Question" name="Question">
-                                <span class="bar"></span>
-                                <label>I want to know:</label>
+                                <label class="label white">Question</label>
+                                <input class="inputWhite" type="text" required placeholder="I want to know:" name="Question">
                             </div>
                         </form>
-                        <div class="block05__logo-checkbox block09__anyQuestions-checkbox">
-                            <div></div>
-                            <p>I agree to the processing of personal<br> data</p>
+                        <div class="block09__anyQuestions-checkbox">
+                           <input type="checkbox" class="block09__anyQuestions-custom-checkbox" id="happy" name="happy" value="yes" placeholder="What is">
+                            <label for="happy">I agree to the processing of personal data.</label>
                         </div>
                         <button class="button  block09__anyQuestions-button_call">Submit</button>
+                        </div>
                     </div>
-                </div>
                 <div class="block09__anyQuestions-adress">
                     <h2 class="subtitle">Rostov-on-Don, Nansen St., 239 Shopping Center
                         Decorum Tel +7 (928) 768 32 29</h2>
-                    <img src="/src/img/mailfoto.png" alt="mail">
+                        <div class="block09__anyQuestions-img">
+                            <a href=""><div class="block09__anyQuestions-mail"></div></a>
+                            <a href=""><div class="block09__anyQuestions-inst"></div></a>
+                        </div>
                 </div>
                     <div class="block09__anyQuestions-map"></div>                
             </div>
