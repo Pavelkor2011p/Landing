@@ -1015,7 +1015,7 @@ input:focus {
   margin-left: 15px;
 }
 .block09__anyQuestions-map {
-  background-image: url(/src/img/map.png);
+  background-image: url(../img/map.png);
   width: 926px;
   height: 463px;
   margin-top: 40px;
