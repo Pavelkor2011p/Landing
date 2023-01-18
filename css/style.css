@@ -35,6 +35,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  border: 1px solid #FFFFFF;
+}
+
 .title {
   font-family: "Yeseva One";
   font-style: normal;
@@ -234,6 +238,9 @@ input:focus {
   background: none;
   margin-left: 10px;
 }
+.block01__botton-botton02-white:hover {
+  border: 1px solid #131313;
+}
 
 .block02 {
   background: #131313;
@@ -304,11 +311,10 @@ input:focus {
   opacity: 1;
 }
 .block02 .slider__arrow.left {
-  margin-left: 165px;
   padding-top: 5px;
 }
 .block02 .slider__arrow.right {
-  margin-right: 150px;
+  margin-left: 170px;
   margin-top: -12px;
 }
 .block02 .slider__dots {
@@ -1045,6 +1051,7 @@ input:focus {
   }
   .block02 .slider__images {
     width: 580px;
+    height: 350px;
   }
   .block04 {
     display: block;
@@ -1317,14 +1324,8 @@ input:focus {
     height: 300px;
   }
   .block03__video_botton {
-    max-width: 40px;
-    height: 60px;
-  }
-  .block03__poligon {
-    width: 20px;
-    height: 25px;
-    margin-top: 17px;
-    margin-left: 20px;
+    height: 68px;
+    font-size: 25px;
   }
   .block03__video-push {
     padding: 120px 200px;
@@ -1410,8 +1411,7 @@ input:focus {
     height: 207px;
   }
   .block03__video_botton {
-    max-width: 30px;
-    height: 58px;
+    height: 68px;
   }
   .block03__poligon {
     width: 20px;
