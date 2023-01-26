@@ -51,6 +51,21 @@ style="background-image:url(${images[index].url});" data-index="${index}"></div>
       });
     }
     
+        let pic01 = document.querySelector('.a');
+    pic01.addEventListener('click', function() {
+      moveSlider(0);
+    });
+
+    let pic02 = document.querySelector('.b');
+    pic02.addEventListener('click', function() {
+    moveSlider(1);
+    });
+    
+    let pic03 = document.querySelector('.c');
+    pic03.addEventListener('click', function() {
+    moveSlider(2);
+    });
+    
     function initArrows() {
       sliderArrows.querySelectorAll(".slider__arrow").forEach(arrow => {
         arrow.addEventListener("click", function() {
